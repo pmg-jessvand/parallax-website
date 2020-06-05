@@ -1,0 +1,197 @@
+:root {
+  --color-green: #0f0;
+  --color-black: #000005;
+  --color-white: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#canv {
+  position: relative;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  font-family: 'Share Tech Mono';
+}
+
+.intro_wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.intro_wrapper h1 {
+  color: var(--color-green);
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, .5);
+  line-height: 40px;
+}
+
+span {
+  font-size: 20px;
+}
+
+h2{
+  color: var(--color-green);
+  font-size: 40px;
+  padding-bottom: 16px;
+}
+
+
+p{
+  color: var(--color-white);
+  font-size: 25px;
+  line-height: 35px;
+}
+
+section {
+  margin: 0px auto;
+  width: 80%;
+}
+
+.content_wrapper {
+  margin: 0 auto;
+  padding: 50px 0px;
+  width: 40%;
+  position: relative;
+}
+
+.svg1 {
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: -200px;
+}
+
+.svg2 {
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  right: -200px;
+}
+
+.img_section {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.img_section img{
+  width: 100vw;
+  object-fit: cover;
+  display: block;
+}
+
+.img_section #red_pill{
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 180px;
+  z-index: 1;
+}
+
+.img_section #blue_pill{
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 180px;
+  z-index: 1;
+}
+
+#quote {
+  display: flex;
+  margin: 0 auto;
+  width: 30%;
+  height: 100vh;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: calc(50vw - 16%);
+
+  z-index: 0;
+}
+
+#quote p {
+  color: var(--color-green);
+  font-weight: 300;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+.content2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.content2 p {
+  width: 35vw;
+  margin-bottom: 50px;
+}
+
+#city {
+  width: 100%;
+  position: relative;
+}
+
+#city_neo {
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+
+.img_container {
+  margin: 0px 0px 0px -200px;
+  position: relative;
+}
+
+#bullets {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#smith {
+  position: absolute;
+  top: 0;
+  left: 1300px;
+}
+
+#neo {
+  position: absolute;
+  top: 0;
+  left: -1300px;
+}
+
+footer {
+  margin: 50px 0px;
+}
+
+
+footer p {
+  color: var(--color-green);
+  font-size: 15px;
+}
+
+footer img {
+  height: 50px;
+}
